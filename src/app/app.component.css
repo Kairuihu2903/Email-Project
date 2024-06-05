@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    margin:0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.top-page-div{
+    position: 10vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+.name{
+    font-size: 30px;
+    font-weight: 100;
+    color: #5d5d5d;
+}
+
+.login_button{
+    font-size:30px;
+    font-weight: 100;
+    color: #5d5d5d;
+    background-color:rgb(220,100,100);
+    padding:10px;
+    border-radius:5px;
+    cursor: pointer;
+    display: inline-block;
+}
+.emails{
+    flex-grow: 1;
+    background-color: #825586;
+    padding: 20px;
+    overflow-y: auto;
+}
